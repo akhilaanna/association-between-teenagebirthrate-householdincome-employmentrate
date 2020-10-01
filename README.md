@@ -20,10 +20,11 @@ Data retrieved from: Opportunity Atlas https://www.opportunityatlas.org/.
 
 *Intercept*: 0.773863032 --> When the teenage birth rate is 0, the employment rate is 0.774. 					
 
-*R-squared*: 0.071476839 --> 7.15% of the data can be explained by the linear regression line (trendline). This is very low. Based on the chart, it seems that it should be higher; however, the arithmetic shows that the R-squared value is very small, meaning that the trendline does not explain the data very well. 																									
+*R-squared*: 0.071476839 --> 7.15% of the data can be explained by the linear regression line (trendline). This is very low. Based on the chart, it seems that it should be higher; however, the arithmetic shows that the R-squared value is very small, meaning that the trendline does not explain the data very well. 
+
 *Standard Error*: 0.08476408 --> On average, the predicted value is 0.085 units away from the actual value. 						
 
-**Employment Rate = -0.1412(Teenage Birth Rate) + 0.7739**					
+Employment Rate = -0.1412(Teenage Birth Rate) + 0.7739					
 
 Employment Rate for the average teenage birth rate (0.307) is predicted to be 0.73, or 73%. 
 
