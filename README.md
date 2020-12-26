@@ -1,4 +1,4 @@
-# Correlation Between Teenage Birth Rate, Household Income, and Employment Rate in Baltimore City, Maryland 
+# Association Between Teenage Birth Rate, Household Income, and Employment Rate in Baltimore City, Maryland 
 
 ## Background Information 
 Baltimore City is a metropolitan area in Maryland known for its rich cultural history and diverse neighborhoods. Being a major city in the United States, it has its share of economic struggles, faced by both the city government as a whole and by the residents that occupy it. Employment rate is a crucial indicator of a city's economic stability, but it is not only affected by the economy. Employment rate is also impacted by public health factors such as teenage birth rate. In this data analysis, I assess the relationship between a social factor (teenage birth rate) and an economic factor (household income) on the city's employment rate. 
@@ -7,7 +7,7 @@ Baltimore City is a metropolitan area in Maryland known for its rich cultural hi
 How do social and economic factors make an impact on Baltimore City's employment rate? 
 
 ## Data Question 
-What is the correlation between teenage birth rate and employment rate using a simple linear regression model? What is the correlation between teenage birth rate, household income, and employment rate using a multiple linear regression model? 
+What is the association between teenage birth rate and employment rate using a simple linear regression model? What is the association between teenage birth rate, household income, and employment rate using a multiple linear regression model? 
 
 Metrics used: teenage birth rate, household income, employment rate in Baltimore City, MD 
 Data retrieved from: [Opportunity Atlas](https://www.opportunityatlas.org/). 
@@ -36,7 +36,7 @@ Employment Rate for the average teenage birth rate (0.307) is predicted to be 0.
 
 *Standard Error*: 0.039538306 --> On average, the predicted value is 0.04 units away from the actual value. This is a low number, meaning that there is less difference between the predicted and actual values than if the standard error were higher. 
 
-*Coefficients*:	3.08E-06 (household income), 0.009663745 (teenage birth rate) --> The coefficient for household income is extremely low (3.08E-06), but this doesn't necessarily mean that the effect of household income on employment rate is small. Since the household income values are large (in tens of thousands), the coefficient ends up being smaller to compensate for those large values. Though the value is small, it is still positive, meaning that there is a positive correlation between household income and employment rate (as income increases, employment rate by a little bit.) 
+*Coefficients*:	3.08E-06 (household income), 0.009663745 (teenage birth rate) --> The coefficient for household income is extremely low (3.08E-06), but this doesn't necessarily mean that the effect of household income on employment rate is small. Since the household income values are large (in tens of thousands), the coefficient ends up being smaller to compensate for those large values. Though the value is small, it is still positive, meaning that there is a positive association between household income and employment rate (as income increases, employment rate by a little bit.) 
 
 The coefficient for teenage birth rate is also low, but not as low as the coefficient for household income. Though low, it is positive, so in this model, as teenage birth rate increases, employment rate increases a little bit. This contrasts the results from the simple linear regression, so further research may be necessary to reach a consistent conclusion. 
 
@@ -50,12 +50,15 @@ Social factors and economic factors can both make an impact on employment rate. 
 
 ## Recommendations 
 
+Since the data showed that teenage birth rate does not have a statistically significant association with employment rate, these recommendations will focus on household income, which did show a statistically significant association with employment rate. The positive association between household income and employment rate (as shown by the slope of the relationship, or the coefficient) suggests that higher income is associated with higher employment. This means that there needs to be systemic change 
+
+
 For the simple linear regression model, it was interesting to see the negative correlation between teenage birth rate and employment. Intuitively, this makes sense; if women are having children as teens, it is very hard to keep up with school and career, especially in under-resourced communities. From a public health perspective, Baltimore City can take preventative measures and develop programs to support teenage mothers, perhaps by providing them with a way to get their education and a job while they balance the work that comes with taking care of their baby. They can even develop programs that don't specifically aim to achieve graduation/employment, but rather have a mission to emotionally support teenage mothers so that they feel less stressed when it comes to school and work. Teenage birth rates themselves can be decreased by improving sex education, increasing access to contraceptives, among much more.  
 
 Ultimately, these models are only predictions, and the equations generated from them can only explain so much about the relationships between the variables. The R-squared value for the simple linear regression was very small (7%) so that equation does not lead to much confidence in the predictions. The R-squared value for the multiple linear regression was about 50%, which is significantly higher, but still is not 100% accurate in predicting employment rate values. 
 
 ## Further Research 
 
-For further research, I am interested in assessing other factors that affect employment rate, such as social policies regarding housing, education, and discrimination.  
+For further research, I am interested in assessing other factors that affect employment rate, such as social policies regarding housing, education, and discrimination. It is such a broad variable with many aspects affecting it, so there is much to research from here on. 
 
 
