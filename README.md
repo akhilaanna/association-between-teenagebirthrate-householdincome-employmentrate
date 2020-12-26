@@ -30,6 +30,8 @@ Employment Rate for the average teenage birth rate (0.307) is predicted to be 0.
 
 [!alt_text](simple-lin-regression-visualization.png)
 
+![image](simple-lin-regression-visualization.png) 
+
 **2) Multiple Linear Regression: Relationship between Teenage Birth Rate, Household Income, and Employment Rate**
 
 *R-squared*: 0.496771549 --> 49.7% of the data can be explained by the linear regression line (trendline). This is relatively high compared to the R-squared value from the simple linear regression conducted before. This means that the equation accurately explains almost half the data.  
