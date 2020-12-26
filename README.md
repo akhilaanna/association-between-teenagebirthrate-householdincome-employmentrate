@@ -10,7 +10,7 @@ How do social and economic factors make an impact on Baltimore City's employment
 What is the correlation between teenage birth rate and employment rate using a simple linear regression model? What is the correlation between teenage birth rate, household income, and employment rate using a multiple linear regression model? 
 
 Metrics used: teenage birth rate, household income, employment rate in Baltimore City, MD 
-Data retrieved from: Opportunity Atlas https://www.opportunityatlas.org/. 
+Data retrieved from: [Opportunity Atlas](https://www.opportunityatlas.org/). 
 
 ## Data Analysis Process 
 
@@ -28,7 +28,7 @@ Employment Rate = -0.1412(Teenage Birth Rate) + 0.7739
 
 Employment Rate for the average teenage birth rate (0.307) is predicted to be 0.73, or 73%. 
 
-https://github.com/akhilaanna/correlation-between-teenagebirthrate-householdincome-employmentrate/issues/1#issue-713108783
+[!alt_text](https://github.com/akhilaanna/correlation-between-teenagebirthrate-householdincome-employmentrate/issues/1#issue-713108783)
 
 **2) Multiple Linear Regression: Relationship between Teenage Birth Rate, Household Income, and Employment Rate**
 
